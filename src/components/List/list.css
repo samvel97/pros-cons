@@ -1,0 +1,42 @@
+.list {
+  flex: 0 0 50%;
+  min-width: 50%;
+  border-right: 1px solid #8b8b8b;
+}
+.list:last-child {
+  border: none;
+}
+.list .list-header {
+  padding: 20px;
+  border-bottom: 1px solid #8b8b8b;
+  text-align: center;
+}
+.list .list-header h4 {
+  font-size: 20px;
+  font-weight: 400;
+}
+.list-content {
+  padding: 20px;
+  height: 650px;
+  overflow-y: auto;
+}
+.list-content ul {
+  list-style: none;
+}
+.list-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 25px;
+}
+.list-item span {
+  font-size: 18px;
+  font-weight: bold;
+  display: block;
+  margin-right: 5px;
+  min-width: 20px;
+}
+.list-item input{
+  padding: 8px;
+  border: none;
+  flex: 1 0 auto;
+}
