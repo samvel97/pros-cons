@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": false,
   "author": "Samvel Baghdasaryan",
-  "homepage": "https://samvel97.github.io/pros-cons/",
+  "homepage": "http://samvel97.github.io/pros-cons/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
